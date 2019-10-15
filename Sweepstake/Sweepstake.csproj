@@ -48,8 +48,10 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sweepstake.cs" />
+    <Compile Include="SweepstakeManager.cs" />
     <Compile Include="SweepstakesQueueManager.cs" />
     <Compile Include="SweepstakeStackManager.cs" />
+    <Compile Include="Userinterface.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

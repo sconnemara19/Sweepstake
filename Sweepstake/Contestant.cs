@@ -8,8 +8,18 @@ namespace Sweepstake
 {
     class Contestant
     {
-    
-    
-    
+        //memeber variables 
+        string name;
+        string lastName;
+        string email;
+        int registration;
+
+        //Constructor
+        public Contestant()
+        {
+
+        }
+        //Member Methods
+        
     }
 }
