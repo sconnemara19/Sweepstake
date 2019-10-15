@@ -8,8 +8,8 @@ namespace Sweepstake
 {
     static class Userinterface
     {
-    //Memeber Variables 
-        
+        //Memeber Variables 
+
         
         
         //Constructor 
@@ -22,19 +22,19 @@ namespace Sweepstake
         public static void Name()
         {
             Console.WriteLine("What is your first name?");
-            Console.ReadLine();
+          string userinput = Console.ReadLine();
             Console.WriteLine("What is your last name?");
-            Console.ReadLine();
+          string input=  Console.ReadLine();
         }
-        public static  void EmailAddress()
+        public static void EmailAddress()
         {
             Console.WriteLine(" What is your email address?");
-             Console.ReadLine();
+            string userinput = Console.ReadLine();
         }
         public static void Registration()
         {
             Console.WriteLine("Please enter your registration number");
-             Int32.Parse(Console.ReadLine());
+           int input= Int32.Parse(Console.ReadLine());
 
 
         }
@@ -44,6 +44,10 @@ namespace Sweepstake
             EmailAddress();
             Registration();
 
+        }
+        public static void PrintOutWinner()
+        {
+            Console.WriteLine(Contestant);
         }
 
 
