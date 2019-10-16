@@ -29,6 +29,8 @@ namespace Sweepstake
             contestants.Add(contestants.Count + 1, contestant);
         }
 
+       
+
         public void ContestantPickWinner()
         {
             // generate random between 0,count
@@ -45,13 +47,13 @@ namespace Sweepstake
            
         }
 
-        //public void PrintContestantInfo(Contestant contestant)
-        //{
-        //    Console.WriteLine(contestant.name);
-        //    Console.WriteLine(contestant.lastName);
-        //    Console.WriteLine(contestant.email);
-        //    Console.WriteLine(contestant.registration);
-        //}
+        public void PrintContestantInfo(Contestant contestant)
+        {
+            Console.WriteLine(contestant.name);
+            Console.WriteLine(contestant.lastName);
+            Console.WriteLine(contestant.email);
+            Console.WriteLine(contestant.registration);
+        }
 
 
     }

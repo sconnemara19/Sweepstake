@@ -10,10 +10,20 @@ namespace Sweepstake
     {
         static void Main(string[] args)
         {
-            Sweepstake sweepstake = new Sweepstake();
-            sweepstake.ContestantPickWinner();
-        
-        
+            ISweepstakeManager manager = SweepstakeManagerFactory.CreateManager();
+            MarketingFirm marketingFirm = new MarketingFirm(manager);
+        //string ChooseAManager()
+        //    {
+        //        Userinterface.PickAManager();
+        //        string input = Console.ReadLine();
+        //        return input;
+        //    }
+        // void AddAManager()
+        //    {
+        //        ISweepstakeManager manager = SweepstakeManagerFactory.CreateManager(manager);
+        //    }
         }
     }
+
+
 }
