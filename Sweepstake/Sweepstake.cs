@@ -31,17 +31,27 @@ namespace Sweepstake
 
         public void ContestantPickWinner()
         {
-            int index = rand.Next(contestants.Count);
+            // generate random between 0,count
+            int index = rand.Next(0, contestants.Count);
+            //loop through the dictionary stoping at the number you just randomly generated and make them the winner
+            for (int i = 0; i < contestants.Count; i++)
+            {
+                if (contestants.Count == rand.Next()) 
+                {
+                    Console.WriteLine("Sweepstake Winner");
+                }
+            }
+           
+           
         }
 
-        public void PrintContestantInfo(Contestant contestant)
-        {
-            Console.WriteLine(contestant.name);
-            Console.WriteLine(contestant.lastName);
-            Console.WriteLine(contestant.email);
-            Console.WriteLine(contestant.registration);
-
-        }
+        //public void PrintContestantInfo(Contestant contestant)
+        //{
+        //    Console.WriteLine(contestant.name);
+        //    Console.WriteLine(contestant.lastName);
+        //    Console.WriteLine(contestant.email);
+        //    Console.WriteLine(contestant.registration);
+        //}
 
 
     }

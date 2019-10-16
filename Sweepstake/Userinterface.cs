@@ -49,11 +49,6 @@ namespace Sweepstake
             Registration();
 
         }
-        public static void PrintOutWinner()
-        {
-            Console.WriteLine(Contestant);
-        }
-
-
+        
     }
 }

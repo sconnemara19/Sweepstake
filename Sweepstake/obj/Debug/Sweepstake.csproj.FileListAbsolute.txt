@@ -1,0 +1,6 @@
+C:\Users\simon\Desktop\Visual Studio\Sweepstake\Sweepstake\obj\Debug\Sweepstake.csprojAssemblyReference.cache
+C:\Users\simon\Desktop\Visual Studio\Sweepstake\Sweepstake\bin\Debug\Sweepstake.exe.config
+C:\Users\simon\Desktop\Visual Studio\Sweepstake\Sweepstake\bin\Debug\Sweepstake.exe
+C:\Users\simon\Desktop\Visual Studio\Sweepstake\Sweepstake\bin\Debug\Sweepstake.pdb
+C:\Users\simon\Desktop\Visual Studio\Sweepstake\Sweepstake\obj\Debug\Sweepstake.exe
+C:\Users\simon\Desktop\Visual Studio\Sweepstake\Sweepstake\obj\Debug\Sweepstake.pdb
