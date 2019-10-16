@@ -9,10 +9,10 @@ namespace Sweepstake
     class Contestant
     {
         //memeber variables 
-        string name;
-        string lastName;
-        string email;
-        int registration;
+       public  string name;
+       public  string lastName;
+       public string email;
+       public int registration;
 
         //Constructor
         public Contestant()

@@ -23,8 +23,12 @@ namespace Sweepstake
         {
             Console.WriteLine("What is your first name?");
           string userinput = Console.ReadLine();
+            
+        }
+        public static void LastName()
+        {
             Console.WriteLine("What is your last name?");
-          string input=  Console.ReadLine();
+            string input = Console.ReadLine();
         }
         public static void EmailAddress()
         {

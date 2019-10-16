@@ -36,7 +36,11 @@ namespace Sweepstake
 
         public void PrintContestantInfo(Contestant contestant)
         {
-           
+            Console.WriteLine(contestant.name);
+            Console.WriteLine(contestant.lastName);
+            Console.WriteLine(contestant.email);
+            Console.WriteLine(contestant.registration);
+
         }
 
 
