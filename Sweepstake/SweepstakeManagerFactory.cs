@@ -10,18 +10,14 @@ namespace Sweepstake
     {
         public static ISweepstakeManager CreateManager()
         {
-            string ChooseAManager()
-            {
-                Userinterface.PickAManager();
-                string input = Console.ReadLine();
-                return input;
-            }
+            
 
 
             ISweepstakeManager user = null;
-            switch (manager)
+            string input = Userinterface.PickAManager();
+            switch (input)
             {
-                case " Stack":
+                case "Stack":
                     user = new SweepstakeStackManager();
                     break;
                 case "Queue":
@@ -29,7 +25,7 @@ namespace Sweepstake
                     break;
                 default:
                     Console.WriteLine("Not a valid entry");
-                    CreateManager(manager);
+                    CreateManager();
                     break;
             }
             return user;

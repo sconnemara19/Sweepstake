@@ -49,9 +49,10 @@ namespace Sweepstake
             Registration();
 
         }
-        public static void PickAManager()
+        public static string PickAManager()
         {
             Console.WriteLine(" Please pick either Stack or Queue");
+            return Console.ReadLine();
         }
         
     }
